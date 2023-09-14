@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Roboto:wght@400&display=swap" rel="stylesheet">
+<style>
+body {
+  display: flex;
+  font-family: 'Roboto', sans-serif; 
+  text-align: center;
+  margin: 0px;
+  background-color: #233c41;
+  color: #ffffff;
+}
+
+.sidebar {
+    width: 130px;
+    background-color: magenta;
+    padding: 3px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    font-size: 0.505em;
+    visibility: hidden;
+    transition: visibility 0.3s ease-out; 
+}
+
+.sidebar a {
+    display: block; 
+    text-decoration: none; 
+    margin: 23px 0;
+    color: #ffffff;
+    font-family: 'Press Start 2P', cursive; 
+}
+
+.sidebar a:hover {
+    background-color: #17ec17;
+    color: #000000;
+}
+
+.main {
+    margin-left: 530px;
+    padding: 10px;
+}
+
+.main h2 {
+    font-family: 'Press Start 2P', cursive;
+    text-decoration: underline magenta; /* Removed overline */
+    text-align: center;
+    font-size: 2em;
+}
+</style>
+<title>Consoles</title>
+</head>
+<body>
+  <div class="sidebar">
+    <script>
+      document.addEventListener('mousemove', function(e) {
+        const sidebar = document.querySelector('.sidebar');
+        if (e.clientX < window.innerWidth * 0.2) {
+          sidebar.style.visibility = 'visible';
+        } else {
+          sidebar.style.visibility = 'hidden';
+        }
+      });
+    </script>
+  
+  <p><a href="ABOUT.html">ABOUT</a></p>
+  <p><a href="CONTACT.html">CONTACT</a></p> 
+  <p><a href="#handhelds">Handhelds</a></p>
+  <p><a href="#accessories">Accessories</a></p>
+  <p><a href="gear-and-packages.html#Students">Students</a></p>
+  <p><a href="gear-and-packages.html#Individual">Individual</a></p>
+  <p><a href="gear-and-packages.html#Families">Families</a></p>
+  <p><a href="gear-and-packages.html#streamers-and-content-creators">Streamers and Content Creators</a></p>
+  <p><a href="gear-and-packages.html#event-organizers">Event Organizers</a></p>
+  <p><a href="gear-and-packages.html#educational-institutions">Educational Institutions</a></p>
+  <p><a href="gear-and-packages.html#production-companies">Production Companies</a></p>
+  <p><a href="gear-and-packages.html#rental-companies">Rental Companies</a></p>
+  <p><a href="gear-and-packages.html#temporary-stays-and-accommodations">Temporary Stays and Accommodations</a></p>
+  <p><a href="gear-and-packages.html#gaming-cafes-and-arcades">Gaming Cafes and Arcades</a></p>
+  <p><a href="gear-and-packages.html#hospitals-and-healthcare-facilities">Hospitals and Healthcare Facilities</a></p>
+  
+  </div>
+  
+  <div class="main">  
+  <div>  
+  <section> 
+  <h2>CONSOLES</h2> 
+
+
+    <p>Black Nintendo Wii</p>
+    <p>Wii U</p>
+    <p>White Wii</p>
+    <p>PS2 FAT</p>
+    <p>PS2 1 slim</p>
+    <p>Black PS3</p>
+    <p>GameCube</p>
+    <p>SEGA gen @games</p>
+    <p>Xbox 360 White Pro</p>
+    <p>Xbox 360 Black Slim</p>
+    <p>OG Xbox console</p>
+    <p>Black Xbox Series X</p>
+    
+    </section>
+    </div>
+  </div>
+    
+</body>
+</html>
